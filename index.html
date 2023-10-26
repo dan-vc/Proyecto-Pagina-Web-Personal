@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <!-- Header / Navbar -->
+        <div class="container-xxl p-0">
+            <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+                <div class="container-fluid gap-3 py-2">
+                    <a class="navbar-brand fs-4" href="#">DANIEL VILLAFRANQUI</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav gap-1 fs-5">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#blog">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#conocimientos">Conocimientos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#proyectos">Proyectos</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <!-- Personal Information -->
+        <div class="container-xxl">
+            <div class="row py-4 fw-bold d-flex justify-content-evenly">
+                <div class="col-xl-2 d-flex align-items-center justify-content-center">
+                    <img src="img/perfil.jpg" alt="" class="img-thumbnail rounded-circle" width="200px">
+                </div>
+                <div class="col-md-8 d-flex align-items-stretch p-3">
+                    <div class="bg-info-subtle p-4 rounded-3 d-flex align-items-center fs-5">
+                        <p>¡Hola! Mi nombre es Daniel y soy un estudiante de segundo semestre de Senati en la carrera de
+                            Informática y Desarrollo de Aplicaciones Web. Mi
+                            conjunto de habilidades incluye HTML, CSS, JavaScript, PHP, maquetación con Balsamiq y un
+                            toque
+                            de Figma. Estoy ansioso por aprender y actualmente estoy enfocado en mejorar mis diseños web
+                            con
+                            Bootstrap. ¡Listo para nuevos desafíos en el mundo digital!</p>
+                    </div>
+                </div>
+                <div class="col-md-auto p-3">
+                    <div class="bg-primary p-4 rounded-3 text-white fs-5">
+                        <p>Estudiante</p>
+                        <p>Hombre</p>
+                        <p>20 años</p>
+                        <p>Lima, peru</p>
+                        <p>(UTC -05:00)</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Carrusel -->
+        <div class="container-xxl">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/portada1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada2.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/portada3.jpeg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+
+        </div>
+
+        <!-- Blog & iframe -->
+        <a id="blog"></a>
+        <div class="container-xxl p-5">
+            <div class="row align-items-center">
+                <div class="col-lg-6 p-2">
+                    <div class="p-4 bg-primary text-white rounded-3">
+                        <h2 class="text-center">BLOG</h2>
+                        <div class="container-fluid pt-3">
+                            <a href="#"
+                                class="row py-2 my-2 align-items-center text-black text-decoration-none bg-primary-subtle rounded-3">
+                                <div class="col-3 d-flex justify-content-center">
+                                    <img src="img/blog-JS.png" class="img-fluid img-thumbnail">
+                                </div>
+                                <div class="col-9">
+                                    <p>JavaScript, a menudo abreviado como JS, es un lenguaje de programación que es una
+                                        de las tecnologías fundamentales de la World Wide Web, junto con HTML y CSS.</p>
+                                </div>
+                            </a>
+                            <a href="#"
+                                class="row py-2 my-2 align-items-center text-black text-decoration-none bg-primary-subtle rounded-3">
+                                <div class="col-3 d-flex justify-content-center">
+                                    <img src="img/blog-HTML.png" class="img-fluid img-thumbnail">
+                                </div>
+                                <div class="col-9">
+                                    <p>El Lenguaje de Marcado de Hipertexto o HTML es el lenguaje de marcado estándar
+                                        para documentos diseñados para ser mostrados en un navegador web. Define el
+                                        significado y la estructura del contenido web.</p>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-2">
+                    <iframe class="container-fluid" width="560" height="315"
+                        src="https://www.youtube.com/embed/jkJJtB8usG8?si=TkCaq0po5Xzc6bB_" title="YouTube video player"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+
+        <!-- Accordion -->
+        <a id="conocimientos"></a>
+        <div class="container-sm py-2">
+            <h2 class="text-center">CONOCIMIENTOS</h2>
+            <div class="container-sm py-4">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                Editores de Código
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Visual Studio Code</li>
+                                    <li class="list-group-item">Brackets</li>
+                                    <li class="list-group-item">Sublime Text</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                Lenguajes de programación
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">JavaScript</li>
+                                    <li class="list-group-item">PHP</li>
+                                    <li class="list-group-item">Python</li>
+                                    <li class="list-group-item">Java</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed fs-5" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                Herramientas de Maquetación Web
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">Wireframe</li>
+                                    <li class="list-group-item">Balsamiq</li>
+                                    <li class="list-group-item">Figma</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project Cards -->
+        <a id="proyectos"></a>
+        <div class="container-md w-75 m-auto py-3">
+            <h2 class="text-center">PROYECTOS</h2>
+            <div class="container-fluid d-flex justify-content-center align-items-center gap-5 flex-wrap mt-4">
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p-antojitos.png" class="card-img-top" alt="Antojitos del Cielo">
+                    <div class="card-body">
+                        <h5 class="card-title">Antojitos del Cielo</h5>
+                        <p class="card-text">Primera página web para un negocio fictio.</p>
+                        <a href="https://dan-vc.github.io/antojitos-del-cielo" target="_blank" class="btn btn-primary">Ir a la página.</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p-htmlycss.png" class="card-img-top" alt="Antojitos del Cielo">
+                    <div class="card-body">
+                        <h5 class="card-title">Plantilla Html y CSS</h5>
+                        <p class="card-text">Página web simple para ser usada como plantilla.</p>
+                        <a href="https://dan-vc.github.io/Proyecto-Web-Basico" target="_blank" class="btn btn-primary">Ir a la página.</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p-sanky.jpg" class="card-img-top" alt="Antojitos del Cielo">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto Sankayus</h5>
+                        <p class="card-text">Página web simple acerca del Sanky usando HTML, CSS y JavaScript.</p>
+                        <a href="https://dan-vc.github.io/Proyecto-Sanky" target="_blank" class="btn btn-primary">Ir a la página.</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p-AYM.png" class="card-img-top" alt="Antojitos del Cielo">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto AYM</h5>
+                        <p class="card-text">Página web sobre un negocio ficticio. HTML, CSS y Javascript.</p>
+                        <a href="https://dan-vc.github.io/Proyecto-AYM" target="_blank" class="btn btn-primary">Ir a la página.</a>
+                    </div>
+                </div>
+                <div class="card" style="width: 18rem;">
+                    <img src="img/p-github.png" class="card-img-top" alt="Antojitos del Cielo">
+                    <div class="card-body">
+                        <h5 class="card-title">Proyecto GitHub</h5>
+                        <p class="card-text">Réplica de la Página web de Github.com. En progreso...</p>
+                        <a class="btn btn-primary disabled">Ir a la página.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="container-xxl p-5 m-auto bg-dark text-white">
+            <div class="row justify-content-center">
+                <div class="col-sm-3 text-center">
+                    <img src="img/perfil.jpg" alt="" class="img-thumbnail rounded-circle" width="150px">
+                </div>
+                <div class="col-lg-5 d-flex flex-column justify-content-between p-4">
+                    <h3 class="text-center">Contacto</h3>
+                    <div class="container mt-4 d-flex flex-column justify-content-between">
+                        <p class="m-0">WhatsApp: 910 883 895</p>
+                        <p class="m-0">Correo: 1505049@senati.pe</p>
+                        <p class="m-0">Jr. Santo Tomas Mz. M Lte. 20 - Los Olivos</p>
+                    </div>
+                </div>
+                <div class="col-4 d-flex flex-column gap-4">
+                    <h3 class="text-center">Redes</h3>
+                    <div class="container fs-1 d-flex justify-content-evenly gap-3">
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-twitter"></i>
+                        <i class="bi bi-linkedin"></i>
+                        <i class="bi bi-youtube"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+
+</html>
